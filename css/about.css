@@ -1,0 +1,251 @@
+
+/* startsec 1 who*/
+#about p {
+  max-width: 740px;
+  margin: auto;
+  font-size: 25px;
+  color: #504d4d;
+  font-weight: 300;
+}
+#about p .ani::after {
+  content: " ";
+  animation: typing 10s linear infinite;
+  font-size: 24px;
+  color: rgb(0, 213, 238);
+  font-weight: 500;
+}
+@keyframes typing {
+  2% {
+    content: " l|";
+  }
+  4% {
+    content: " la|";
+  }
+  6% {
+    content: " lab|";
+  }
+  8% {
+    content: " labt|";
+  }
+  10% {
+    content: " labto|";
+  }
+  12% {
+    content: " labtop|";
+  }
+  14% {
+    content: " labtop p|";
+  }
+  16% {
+    content: " labtop pc|";
+  }
+
+  18% {
+    content: " labtop p|";
+  }
+  20% {
+    content: " labtop|";
+  }
+  22% {
+    content: " lapto|";
+  }
+  24% {
+    content: " labt|";
+  }
+  26% {
+    content: " lab|";
+  }
+  28% {
+    content: " la|";
+  }
+  30% {
+    content: " l|";
+  }
+  32% {
+    content: "|";
+  }
+
+  34% {
+    content: " h|";
+  }
+  36% {
+    content: " he|";
+  }
+  38% {
+    content: " hea|";
+  }
+  40% {
+    content: " head|";
+  }
+  42% {
+    content: " headp|";
+  }
+  44% {
+    content: " headph|";
+  }
+  46% {
+    content: " headpho|";
+  }
+  48% {
+    content: " headphon|";
+  }
+  50% {
+    content: " headphone|";
+  }
+
+  52% {
+    content: " headphon|";
+  }
+  54% {
+    content: " headpho|";
+  }
+  56% {
+    content: " headph|";
+  }
+  58% {
+    content: " headp|";
+  }
+  60% {
+    content: " head|";
+  }
+  62% {
+    content: " hea|";
+  }
+  64% {
+    content: " he|";
+  }
+  66% {
+    content: " h|";
+  }
+  68% {
+    content: "|";
+  }
+  70% {
+    content: " p|";
+  }
+  72% {
+    content: " ph|";
+  }
+  74% {
+    content: " pho|";
+  }
+  76% {
+    content: " phon|";
+  }
+
+  78% {
+    content: " phone|";
+  }
+  80% {
+    content: " phones|";
+  }
+  82% {
+    content: " phone|";
+  }
+  84% {
+    content: " phon|";
+  }
+  86% {
+    content: "pho|";
+  }
+
+  88% {
+    content: "ph|";
+  }
+  90% {
+    content: "p|";
+  }
+  92% {
+    content: "|";
+  }
+  94% {
+    content: "|";
+  }
+  96% {
+    content: "|";
+  }
+  98% {
+    content: "|";
+  }
+  100% {
+    content: "|";
+  }
+}
+
+#about h6 {
+  font-size: 13px;
+}
+#about .btn {
+  background-color: transparent;
+  border: solid 1px grey;
+  color: black;
+  font-size: 20px;
+  border-radius: 2px;
+}
+#about .btn:hover {
+  background-color: rgb(5, 5, 107);
+  color: white;
+}
+#about {
+  border-bottom: solid 1px grey;
+}
+
+/* end sec1 who */
+
+/* star tsec2 agin */
+.team .title-p{
+  font-size: 25px;
+  color: #504d4d;
+}
+.team-img img,div
+{
+    border-radius: 3px;
+}
+.team-img
+{
+position: relative;
+overflow: hidden;
+}
+.team-caption
+{
+position:absolute;
+background-color: rgba(57, 115, 238, 0.85);
+width: 100%;
+height: 100%;
+top: 0;
+opacity: 0;
+transition: all .3s;
+}
+.team-img:hover .team-caption
+{
+  
+opacity: 1;
+}
+
+.team-img img{
+    transition: transform .3s;
+}
+.team-img:hover img
+{
+transform: scale(1.1,1.1);
+}
+.team-container:hover .team-text h5{
+color:  rgba(2, 47, 143, 0.85);
+}
+
+
+
+     
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
